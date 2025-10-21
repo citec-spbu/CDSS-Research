@@ -77,9 +77,9 @@ response = requests.get(url)
 
 ## Контракты
 
-POST /createdoc — загрузка нового документа
-GET /doclist — получение списка документов
-DELETE /doclist/{doc_id} — удаление документа
-GET /doclist/{doc_id}.pdf — скачивание PDF
-POST /chat (у тебя там стоит Home в фигме, так что можно и его хз) — отправка сообщения в чат 
+POST /createdoc — загрузка нового документа\
+GET /doclist — получение списка документов\
+DELETE /doclist/{doc_id} — удаление документа\
+GET /doclist/{doc_id}.pdf — скачивание PDF\
+POST /chat (у тебя там стоит Home в фигме, так что можно и его хз) — отправка сообщения в чат \
 GET /chat — получение истории сообщений
